@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resturant Theme</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/jquery.selectBoxIt.css" />
+  </head>
+
+  <body>
+    <!-- start setting box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#00bcd4"></li>
+            <li data-color="seagreen"></li>
+            <li data-color="violet"></li>
+            <li data-color="#faa422"></li>
+            <li data-color="#6b1317"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end setting box -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip"><a href="#about">About Us</a></div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip"><a href="#skills">Our Services</a></div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip"><a href="#gallery">Our Amazing Food Art</a></div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip"><a href="#timeline">Timeline</a></div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip"><a href="#features">Our Features</a></div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip"><a href="#testimonials">Testimonials</a></div>
+      </div>
+      <div class="bullet" data-section=".contact-form">
+        <div class="tooltip"><a href="#contact">Contact Us</a></div>
+      </div>
+      <div class="bullet" data-section="recipe.html">
+        <div class="tooltip">Recipes</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Starting landing page -->
+
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Special Designe</div>
+          <ul class="links">
+            <li>
+              <a href="index.html" data-section=".about-us" class="active">
+                Home
+              </a>
+            </li>
+            <li><a href="#about" data-section=".about-us">About</a></li>
+            <li><a href="#skills" data-section=".skills">Services</a></li>
+            <li><a href="#gallery" data-section=".gallery">Gallery</a></li>
+            <!-- <li><a href="#" data-section=".timeline">Timeline</a></li> -->
+            <li><a href="#features" data-section=".features">Features</a></li>
+            <li>
+              <a href="#testimonials" data-section=".testimonials">
+                Testimonials
+              </a>
+            </li>
+            <li><a href="#contact" data-section=".contact-form">Contact</a></li>
+            <li>
+              <a href="recipe.html">Recipes</a>
+            </li>
+          </ul>
+          <!-- burger icon -->
+          <div class="burger-icon">
+            <div class="burger-span">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="links-burger">
+              <li>
+                <a href="index.html" data-section=".about-us" class="active">
+                  Home
+                </a>
+              </li>
+              <li><a href="#about" data-section=".about-us">About</a></li>
+              <li><a href="#skills" data-section=".skills">Services</a></li>
+              <li><a href="#gallery" data-section=".gallery">Gallery</a></li>
+              <!-- <li><a href="#" data-section=".timeline">Timeline</a></li> -->
+              <li><a href="#features" data-section=".features">Features</a></li>
+              <li>
+                <a href="#testimonials" data-section=".testimonials">
+                  Testimonials
+                </a>
+              </li>
+              <li>
+                <a href="#contact" data-section=".contact-form">Contact</a>
+              </li>
+              <li>
+                <a href="recipe.html">Recipes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="introduction-text">
+        <h1 class="animate__animated animate__fadeInDown">
+          <span>ENJOY</span>
+          OUR DELICIOUS & FINE
+          <span>AMERICAN</span>
+          CUISINE
+        </h1>
+        <p class="animate__animated animate__fadeIn">
+          Food Velly has received numerous awards including: best lunch from the
+          readers of eye magazine; best food from now magazine's critic's pick;
+          best late night munchies from dineto, and has been recommended in
+          toronto life's restaurant guide for best food.
+        </p>
+      </div>
+    </div>
+    <!-- ending landing page -->
+
+    <!-- Start About Us -->
+    <div class="container" id="about">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Our values include providing fair wages for workers, giving back to
+            the communities we work with, and serving great Food. Our mission is
+            to give our customers a place to celebrate life’s special moments by
+            offering the best food, service, and ambiance in USA.
+          </p>
+        </div>
+        <div class="image-box">
+          <img
+            class="animate__animated animate__fadeInRightBig"
+            src="imgs/resturant.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start Our Services -->
+    <div class="skills" id="skills">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="skill-box">
+          <div class="skill-name">See Food</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">Humberger</div>
+          <div class="skill-progress">
+            <span data-progress="100%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Tacos</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Deep-Dish Pizza</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Clam Chowder</div>
+          <div class="skill-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Bagel and Lox</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Texas Barbecue</div>
+          <div class="skill-progress">
+            <span data-progress="100%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Thanksgiving</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Hominy Grits</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Services -->
+
+    <!-- Start Gallery  -->
+    <div class="gallery" id="gallery">
+      <div class="container">
+        <h2>Our Amazing Food Art</h2>
+        <div class="images-box">
+          <img src="imgs/01.jpg" alt="Pizza" />
+          <img src="imgs/02.jpg" alt="Bagel and Lox" />
+          <img src="imgs/03.jpg" alt="Thanksgiving" />
+          <img src="imgs/04.jpg" alt="Clam Chowder " />
+          <img src="imgs/05.jpg" alt="Texas Barbecue" />
+          <img src="imgs/06.jpg" alt="" />
+          <img src="imgs/07.jpg" alt="See Food" />
+          <img src="imgs/08.jpg" alt="Hominy Grits" />
+          <img src="imgs/09.jpg" alt="Humberger" />
+          <img src="imgs/10.jpg" alt="Tacos" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery  -->
+
+    <!-- Start Time line -->
+    <div class="timeline" id="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dignissimos est blanditiis facere aspernatur aliquid iste sequi
+                inventore, tempore officia, repellat consequuntur dolore ipsum
+                quis error labore, quidem optio. Nesciunt, optio.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dignissimos est blanditiis facere aspernatur aliquid iste sequi
+                inventore, tempore officia, repellat consequuntur dolore ipsum
+                quis error labore, quidem optio. Nesciunt, optio.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dignissimos est blanditiis facere aspernatur aliquid iste sequi
+                inventore, tempore officia, repellat consequuntur dolore ipsum
+                quis error labore, quidem optio. Nesciunt, optio.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dignissimos est blanditiis facere aspernatur aliquid iste sequi
+                inventore, tempore officia, repellat consequuntur dolore ipsum
+                quis error labore, quidem optio. Nesciunt, optio.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2018</div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dignissimos est blanditiis facere aspernatur aliquid iste sequi
+                inventore, tempore officia, repellat consequuntur dolore ipsum
+                quis error labore, quidem optio. Nesciunt, optio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Time line -->
+
+    <!-- Start Our Features -->
+    <div class="features" id="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="imgs/h1.jpg" alt="" />
+          <h4>Serving high quality food</h4>
+          <p>
+            Good serving quality and tasty food will earn a restaurant a good
+            reputation, causing customers to make return visits
+          </p>
+        </div>
+        <!-- <div class="clearfix"></div> -->
+        <div class="feat-box">
+          <img src="imgs/h2.jpg" alt="" />
+          <h4>The dining experience</h4>
+          <p>
+            you are eating in a clean environment and getting the best service.
+            will ensure that the wait staff help the guest experience through
+            being courteous and maintaining a great attitude
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/h3.jpeg" alt="" />
+          <h4>The restaurant ambience</h4>
+          <p>
+            the restaurant’s ambience include the decor, comfortable seating,
+            background music, openness, and the lighting.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="feat-box">
+          <img src="imgs/h4.jpg" alt="" />
+          <h4>Restaurant cleanliness</h4>
+          <p>
+            All areas are kept clean and this includes the front and back of the
+            restaurant, restrooms and employee areas.
+          </p>
+        </div>
+        <!-- <div class="clearfix"></div> -->
+        <div class="feat-box">
+          <img src="imgs/h5.jpg" alt="" />
+          <h4>Something unique</h4>
+          <p>
+            promises to offer something that is not available elsewhere A great
+            offer will have one or several unique features that will stand out
+            in the patrons mind
+          </p>
+        </div>
+        <!-- <div class="clearfix"></div> -->
+        <div class="feat-box">
+          <img src="imgs/h6.jpg" alt="" />
+          <h4>The price factor</h4>
+          <p>
+            It may be expensive, but maybe not. Diners feel they are paying a
+            fair price. The portions are ample. They don’t feel cheated.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Our Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="testimonials">
+      <div class="inner">
+        <h1>Testimonials</h1>
+        <div class="border"></div>
+
+        <div class="row">
+          <div class="col">
+            <div class="testimonial">
+              <img src="imgs/p1.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="imgs/p2.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="testimonial">
+              <img src="imgs/p3.png" alt="" />
+              <div class="name">Full name</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start contact us section  -->
+    <section id="contact-section" id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Email us and keep upto date with our latest Plates</p>
+        <div class="contact-form">
+          <!-- First grid -->
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <span class="form-info">
+              Broadway and West 112th Street, New York
+            </span>
+            <br />
+            <i class="fa fa-phone"></i>
+            <span class="form-info">+1 222 333 444</span>
+            <br />
+            <i class="fa fa-envelope"></i>
+            <span class="form-info">resturant.ny@gmail.com</span>
+          </div>
+
+          <!-- second grid -->
+          <div>
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="text" placeholder="Last Name" />
+              <br />
+              <input type="Email" placeholder="Email" required />
+              <br />
+              <input type="text" placeholder="Subject of this message" />
+              <br />
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="5"
+                required
+              ></textarea>
+              <br />
+              <button class="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End contact us section  -->
+
+    <!-- Start footer section  -->
+
+    <!-- <div class="main"> FOOTER DESIGN IN HTML CSS</div> -->
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <h3>
+          <span>S</span>
+          pecial
+          <span>F</span>
+          ood,
+          <span>S</span>
+          weets
+        </h3>
+
+        <p class="footer-links">
+          <a href="#">Home</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="#">Pricing</a>
+          ·
+          <a href="#">About</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Lands &copy; 2022</p>
+      </div>
+
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p>
+            <span>Broadway and West 112th Street</span>
+            New York.
+          </p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 222 333 444</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">resturant.ny@gmail.com</a></p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <p class="footer-company-about">
+          <span>About Me</span>
+          Our Restaurant is a family-owned restaurant that has been proudly
+          serving around the 1940s located in New York.
+        </p>
+
+        <!-- <div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+ 
+		</div>
+  -->
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fa fa-facebook-f icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin icon"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram icon"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- End footer section  -->
+
+    <script src="js/master.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.selectBoxIt.min.js"></script>
+  </body>
+</html>
